@@ -1,0 +1,77 @@
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 4rem 5vw;
+    padding: 0;
+    list-style-type: none;
+}
+
+.card {
+    position: relative;
+    display: block;
+    height: 100%;
+    border-radius: 1rem;
+    overflow: hidden;
+    text-decoration: none;
+    background-color: white;
+    box-shadow: 0 8px 16px -4px rgba(0,0,0,0.65);
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    transition-duration: 0.3s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+    cursor: pointer;
+}
+
+.cards h1 {
+    color: white;
+    font-size: 1rem;
+}
+
+.cards p {
+    text-align: left;
+    font-size: 0.8em;
+    font-weight: bold;
+    padding: 0 12px;
+}
+
+.cards p:last-child {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+    padding-bottom: 0.2em;
+}
+
+.title-bg {
+    overflow: hidden;
+}
+
+.card:nth-child(1n+0) .title-bg {
+    background-color: #f5bfd2;
+}
+
+.card:nth-child(2n+0) .title-bg {
+    background-color: #e5db9c;
+}
+
+.card:nth-child(3n+0) .title-bg {
+    background-color: #d0bcac;
+}
+
+.card:nth-child(4n+0) .title-bg {
+    background-color: #beb4c5;
+}
+
+.card:nth-child(5n+0) .title-bg {
+    background-color: #e6a57e;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
