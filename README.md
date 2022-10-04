@@ -14,4 +14,4 @@ yarn
 yarn dev
 ```
 
-![Whisper of the Heart Shizuku Studying](https://geekymythology.files.wordpress.com/2019/05/whisper-of-the-heart-shizuku-studying.gif)
+![Whisper of the Heart Shizuku Studying](https://64.media.tumblr.com/d57b511186f98222510362c0b7480cca/1138942fa85bb6b0-f7/s500x750/29e5d12b3c4524774dc16ee97a652505aab2f4bd.gif)
